@@ -1,0 +1,37 @@
+.modal-body.jList{
+	padding: 0;
+}
+.modal-body.jList .panel{
+	border-radius: 0;
+}
+.jList .input-search{
+	border-radius: 0;
+}
+.jList .list {
+    overflow-y: auto;
+}
+.jList .list .list-group-item{
+	padding: 0;
+	cursor: pointer;
+}
+.jList .list .actions{
+    padding-left: 10px;
+}
+.jList .list .name{
+	width: 100%;
+	padding: 8px 5px 8px 15px;
+}
+.jlist .toolbar{
+    padding: 10px;
+}
+.jList .preIcon{
+    padding-right: 10px;
+}
+.jList .panel-subtitle{
+    background-color: rgb(29, 81, 139);
+    color: #FFFFFF;
+    border: 0;
+}
+.jlist-row-selected{
+    background-color: rgb(216,217,232);
+}

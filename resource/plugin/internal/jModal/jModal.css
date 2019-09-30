@@ -1,0 +1,20 @@
+@media (min-width: 992px){
+    .modal-xl {
+        width: 90%;
+    }
+}
+.jModal .modal-subtitle{
+    background-color: rgb(29, 81, 139);
+    color: #FFFFFF;
+    border: 0;
+    /*height: 35px;*/
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.jModal .modal-subtitle.slim-subtitle{
+    height: auto;
+    overflow: visible;
+    white-space: normal;
+}

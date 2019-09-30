@@ -1,0 +1,83 @@
+.bootstrap-table{
+    /*height: 70%;*/
+    display: inline;
+}
+.fixed-table-container{
+   padding-bottom: 0 !important;
+}
+.fixed-table-container{
+    background-color: rgba(255, 255, 255, .9);
+}
+.bootstrap-table .fixed-table-toolbar .btn:not(.dropdown-toggle) i{
+    margin: 2px 0 4px 0;
+}
+.bootstrap-table .fixed-table-toolbar .btn:not(.dropdown-toggle) i.fa-bars{
+    padding: 0;
+}
+.bootstrap-table .fixed-table-toolbar .bs-bars{
+    padding-top: 10px;
+}
+.bootstrap-table .fixed-table-toolbar button {
+    max-height: 34px;
+}
+.bootstrap-table thead{
+    background-color: #FFFFFF;
+}
+.bootstrap-table .jadvancetable-filters tr{
+    background-color: #FFFFFF;
+}
+.bootstrap-table hr{
+    margin: 0;
+    border-top-color:#727272;
+}
+.filter-container{
+    margin-bottom: 10px;
+}
+.filter-container .btn b{
+    text-decoration: underline;
+}
+.filter-container .btn-primary{
+    border-right: solid 1px #FFFFFF !important;
+    border-bottom: solid 1px #FFFFFF !important;
+}
+.fixed-table-body .card-view {
+    display: table;
+    width: 100%;
+    border-bottom: solid 1px #ddd;
+    /*border-bottom: none;*/
+}
+.fixed-table-body .card-view:last-child {
+    display: block;
+    text-align: center;
+    /*width: 100%;*/
+}
+.fixed-table-body .card-view .title br{
+    display: none;
+}
+.fixed-table-body .card-view .value{
+    /*text-align: center;*/
+    /*width: 100%;*/
+}
+.fixed-table-body .card-view span.title{
+    font-weight: bold;
+    border-right: solid 1px #ddd;
+    /*border: solid 1px #000000;*/
+    display: table-cell;
+    width: 20%;
+}
+.fixed-table-body .card-view span.value:nth-child(2){
+    /*border: solid 1px #000000;*/
+    display: table-cell;
+    width: 80%;
+}
+.filter-data-value{
+    background: none;
+    border-bottom: 1px solid #001F2F;
+    outline: none !important;
+}
+.filter-data-value-all{
+    color: #595959;
+}
+.bs-checkbox, .selected_filters, .lock-filter {
+    vertical-align: middle !important;
+}

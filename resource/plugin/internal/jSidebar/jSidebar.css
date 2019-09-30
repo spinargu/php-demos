@@ -1,0 +1,77 @@
+.jsidebar{
+    background-color: #FFFFFF;
+    /*background-color: #EBEBEB;*/
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.jsidebar .list li{
+    border-radius: 0;
+    cursor: pointer;
+}
+.jsidebar .list>li{
+    padding-bottom: 0;
+    /*color: #FFFFFF;*/
+    /*background-color: #001F2F;*/
+    border: none;
+}
+.jsidebar .element{
+    margin-bottom: 10px;
+
+}
+.jsidebar .list .element:after
+{
+    font-family: 'Glyphicons Halflings', serif;
+    float: right;
+    content: "\e080";
+}
+.jsidebar .list .element.open-icon:after {
+    content: "\e114";
+}
+.jsidebar .childs{
+    padding-right: 0;
+}
+.jsidebar .childs ul{
+    margin: 10px 0 0 0;
+}
+.jsidebar .childs li{
+    border-left: 0;
+    border-right: 0;
+}
+.jsidebar .childs li:last-child{
+    border-bottom: 0;
+}
+/*.jsidebar .permission{*/
+    /*background-color: #FFFFFF !important;*/
+    /*!*color: #000000 !important;*!*/
+    /*padding: 10px 15px !important;*/
+/*}*/
+.jsidebar .btn-group .btn{
+    border-radius: 0;
+}
+.jsidebar .list-group-item
+{
+    cursor: pointer;
+}
+.jsidebar .list-group-item.open_with_children
+{
+    padding-bottom: 0;
+}
+.jsidebar .list-group-item .item:after
+{
+    font-family: 'Glyphicons Halflings', serif;
+    float: right;
+    content: "\e080";
+}
+.jsidebar .list-group-item .item.open-icon:after {
+    content: "\e114";
+}
+.jsidebar .toolbar {
+    padding: 10px;
+}
+.jsidebar .sidebar>.list-group{
+    margin-bottom: 0;
+}
+
+
+
+

@@ -1,0 +1,171 @@
+/* Font */
+@font-face {
+    font-family: 'Graphik';
+    src: url("../fonts/graphik/Graphik-Regular.otf");
+    /*font-style: normal;*/
+}
+html, body {
+    /*font-family: 'Graphik', serif !important;*/
+}
+/* Header */
+#header{
+    background-color: #001F2F;
+}
+#header .header-buttons-container{
+    background-color: #727272;
+}
+#header .logo-container{
+    background-color: #001F2F;
+}
+.logo-container.navmenu-brand{
+    color: #000000;
+    background-color: #ffffff !important;
+    border-bottom: solid 4px #6FB330;
+}
+/* Menu */
+#btn-header{
+    color: #FFFFFF;
+    background-color: #001F2F;
+}
+#menu{
+    background-color: #EBEBEB;
+}
+#menu .categories>li{
+    color: #FFFFFF;
+    background-color: #001F2F;
+}
+#menu .permission{
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+/* Content */
+#content .content-header{
+    background-color: #001F2F;
+    color: #FFFFFF;
+}
+#content .content-subheader{
+    border-top: solid 5px #6FB330;
+    background-color: #FFFFFF;
+    color: #001F2F;
+}
+.canvas {
+    background-image: url(/resource/image/background_hidalgo_white.jpg);
+    /*background-size: auto;*/
+    background-position: center;
+}
+/* bottons */
+.btn-danger,
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info{
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+.btn-danger{
+    background-color: #E73C4E !important;
+    border-color: #E73C4E !important;
+}
+.btn-default{
+    background-color: #FFFFFF !important;
+    border-color: #cccccc ;
+}
+.btn-primary{
+    background-color: #001F2F !important;
+    border-color: #001F2F !important;
+}
+.btn-success{
+    background-color: #6FB330 !important;
+    border-color: #6FB330 !important;
+}
+.btn-info{
+    background-color: #727272 !important;
+    border-color: #727272 !important;
+}
+.btn-danger.btn-alt,
+.btn-default.btn-alt,
+.btn-primary.btn-alt,
+.btn-success.btn-alt,
+.btn-info.btn-alt{
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+.btn-danger.btn-alt{
+    color: #E73C4E !important;
+}
+.btn-default.btn-alt{
+    color: #000000 !important;
+}
+.btn-primary.btn-alt{
+    color: #001F2F !important;
+}
+.btn-success.btn-alt{
+    color: #6FB330 !important;
+}
+.btn-info.btn-alt{
+    color: #727272 !important;
+}
+/* panel */
+.panel.panel-info{
+    border-color: #727272 !important;
+}
+.panel-info>.panel-heading {
+    background-color: #727272 !important;
+    border-color: #727272 !important;
+    color: #F6F6F6 !important;
+}
+.panel.panel-primary{
+    border-color: #001F2F !important;
+}
+.panel-primary>.panel-heading {
+    background-color: #001F2F !important;
+    border-color: #001F2F !important;
+}
+.panel.panel-default{
+    border-color: #F6F6F6 !important;
+}
+.panel-default>.panel-heading {
+    background-color: #F6F6F6 !important;
+    border-color: #F6F6F6 !important;
+}
+/* bootstrap-switch  */
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+    background: #001F2F !important;
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info {
+    background: #727272 !important;
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success {
+    background: #6FB330 !important;
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger {
+    background: #E73C4E !important;
+}
+/* Modal */
+.modal .modal-header, .modal .modal-footer{
+    background-color: #F6F6F6 !important;
+    /*color: #FFFFFF !important;*/
+}
+.jModal .modal-subtitle{
+    background-color: #001F2F !important;
+    color: #FFFFFF;
+}
+/* Popover */
+.popover .popover-title{
+    background-color: #001F2F !important;
+}
+/* Datetimepicker*/
+.bootstrap-datetimepicker-widget table td span.active {
+    background-color: #001F2F !important;
+    color: #fff !important;
+}
+/*List*/
+.jList .panel-subtitle{
+    background-color: #001F2F !important;
+    color: #fff !important;
+}
+.jList .jList-row .actions button

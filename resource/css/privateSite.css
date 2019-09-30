@@ -1,0 +1,168 @@
+html, body {
+    /*font-family: 'Graphik', serif !important;*/
+    height: 100%;
+}
+.navbar-toggle {
+    float: left;
+    margin-left: 15px;
+}
+.navmenu {
+    z-index: 1;
+}
+.canvas {
+    position: relative;
+    left: 0;
+    z-index: 2;
+    min-height: 100%;
+    /*background-image: url(/resource/image/background_hidalgo_white.jpg);*/
+    /*background-size: 100% 100%;*/
+}
+@media (min-width: 0) {
+    .navbar-toggle {
+        display: block;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        padding: 0;
+    }
+    .navbar {
+        right: auto;
+        background: none;
+        border: none;
+    }
+    .canvas {
+        padding: 0;
+    }
+}
+#header{
+    /*background-color: #001F2F;*/
+    width: 100%;
+}
+#header .row>div{
+    padding: 0;
+}
+/*#header .header-buttons-container{*/
+    /*background-color: #727272;*/
+/*}*/
+#header .logo-container{
+    /*width: 100%;*/
+    /*margin-left: 10px;*/
+    padding: 0 10px 0 5px;
+    /*background-color: #001F2F;*/
+    display: inline-block;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+#header.canvas-sliding .logo-container{
+    opacity: 0;
+}
+#header.canvas-slid .logo-container{
+    opacity: 0;
+}
+.logo-container{
+    /*cursor: pointer;*/
+}
+.logo-container img{
+    /*margin: 5px;*/
+    height: 50px;
+}
+.logo-container span{
+    font-weight: bold;
+    font-size: medium;
+}
+.logo-container.navmenu-brand{
+    margin: 0;
+    padding: 0;
+    /*color: #000000;*/
+    text-align: center;
+    /*background-color: #ffffff !important;*/
+    /*border-bottom: solid 4px #6FB330;*/
+}
+#btn-header i{
+    cursor: pointer;
+    padding: 16px 7px;
+}
+#menu{
+    /*background-color: #FFFFFF;*/
+    background-color: #EBEBEB;
+}
+#menu .categories li{
+    border-radius: 0;
+    cursor: pointer;
+}
+#menu .categories>li{
+    padding-bottom: 0;
+    /*color: #FFFFFF;*/
+    /*background-color: #001F2F;*/
+    border: none;
+}
+#menu .category{
+    margin-bottom: 10px;
+
+}
+#menu .categories .category:after
+{
+    font-family: 'Glyphicons Halflings', serif;
+    float: right;
+    content: "\e080";
+}
+#menu .categories .category.open-icon:after {
+    content: "\e114";
+}
+#menu .permissions{
+    padding-right: 0;
+}
+#menu .permissions ul{
+    margin: 0;
+}
+#menu .permissions li{
+    border-left: 0;
+    border-right: 0;
+}
+#menu .permissions li:last-child{
+    border-bottom: 0;
+}
+#menu .permission{
+    background-color: #FFFFFF !important;
+    /*color: #000000 !important;*/
+    padding: 10px 15px !important;
+}
+#menu .btn-group .btn{
+    border-radius: 0;
+}
+#content .content-header, .content-subheader{
+    text-align: center;
+    /*background-color: #001F2F;*/
+    color: #FFFFFF;
+    padding: 10px;
+}
+#content .content-header h4, #content .content-subheader h4{
+    margin: 0;
+}
+.bootstrap-switch .bootstrap-switch-handle-off,
+.bootstrap-switch .bootstrap-switch-handle-on,
+.bootstrap-switch .bootstrap-switch-label {
+    height: inherit !important;
+}
+
+.pdfobject-container div{
+    position: relative !important;
+}
+.collapsed-cell{
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.collapsed-cell.collapsed-cell-show{
+    overflow: visible;
+    white-space: normal;
+}
+
+.bootstrap-switch-container span{
+    white-space: nowrap;
+}

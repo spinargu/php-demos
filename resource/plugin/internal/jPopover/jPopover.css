@@ -1,0 +1,10 @@
+.jPopover{
+    padding: 0;
+}
+.jPopover.popover{
+    max-width: none !important;
+}
+.jPopover .popover-title{
+    background-color: rgb(29, 81, 139);
+    color: #FFFFFF;
+}

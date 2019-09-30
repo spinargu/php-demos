@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="./resource/image/favicon.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="./resource/css/hidalgo_theme.css">
+    <link rel="stylesheet" href="./resource/css/privateSite.css">
+
+	<link rel="stylesheet" href="./resource/css/publicSite.css">
+	<link rel="stylesheet" href="./resource/framework/bootstrap-3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./resource/framework/bootstrap-3.3.7/css/bootstrap_4_btn_outline.css">
+
+	<script src="./resource/library/jquery-3.2.1/jquery.min.js"></script>
+	<script src="./resource/library/jqueryUI-1.12.1/jquery-ui.js"></script>
+	<script src="./resource/framework/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+
+	<script src="./resource/plugin/internal/jAdvanceTable/jAdvanceTable.js"></script>
+	<link rel="stylesheet" href="./resource/plugin/internal/jAdvanceTable/jAdvanceTable.css">
+	<script src="./resource/plugin/internal/jToolbar/jToolbar.js"></script>
+	<link rel="stylesheet" href="./resource/plugin/internal/jToolbar/jToolbar.css">
+	<script src="./resource/plugin/external/jBootstrapTable/bootstrap-table.js"></script>
+	<link rel="stylesheet" href="./resource/plugin/external/jBootstrapTable/bootstrap-table.min.css">
+
+	<title>Document</title>
+</head>
+<body>
+	<div id="body" class="container">
+		<div id="menu" class="navmenu navmenu-default navmenu-fixed-left">
+                <!--<div class="navmenu-brand logo-container">
+                    <img src="/resource/image/logo.png" alt="SOPOT Logo">
+                </div>-->
+                <!--<div class="row" style="height: 100px; background-color: #001F2F !important;">
+                </div>-->
+                <div class="btn-group btn-group-justified visible-xs" role="group">
+                    <div class="btn-group normative" role="group"></div>
+                    <div class="btn-group user" role="group"></div>
+                    <div class="btn-group logout" role="group"></div>
+                </div>
+                <ul class="list-group categories">
+                </ul>
+        </div>
+		<div class="canvas">
+                <div id="header">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div id="btn-header" class="col-xs-3 col-sm-2 col-md-1 text-center" >
+                                <i class="fa fa-bars fa-2x" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas"></i>
+                                <i class="fa fa-home fa-2x" ></i>
+                            </div>
+                            <div class="col-xs-9 col-sm-4 col-md-3 text-center">
+                                <div class="logo-container text-center">
+                                    <img src="./resource/image/logo_white.png" alt="SOPOT Logo">
+                                </div>
+                            </div>
+                            <div class="hidden-xs col-sm-6 col-md-8 header-buttons-container" style="padding: 13px">
+                                <div class="btn-group header-buttons pull-right" role="group"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content">
+                    <?php include "autho_doc/indexObras.php"; ?>
+                </div>
+        </div>
+		 <table id="users" class="bootstrap-table">
+		    <thead>
+		      <tr >
+		        <th>Name</th>
+		        <th>Email</th>
+		        <th>Password</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>John Doe</td>
+		        <td>john.doe@example.com</td>
+		        <td>johndoe1</td>
+		      </tr>
+		    </tbody>
+		  </table>
+	</div>
+</body>
+</html>

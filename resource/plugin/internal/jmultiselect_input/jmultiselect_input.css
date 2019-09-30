@@ -1,0 +1,29 @@
+.multiselect-input{
+    background-color: #FFFFFF !important;
+    color: #000000;
+    text-align: center;
+    padding: 0 !important;
+}
+.multiselect-table-list{
+    background-color: #f5f5f5;
+    font-size: 13px;
+    vertical-align: middle;
+}
+.multiselect-table-list .remove{
+    background-color: #FFFFFF;
+    color: #d9534f;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 15px;
+    width: 1px;
+}
+.multiselect-table-list .actions{
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 15px;
+    width: 1px;
+}

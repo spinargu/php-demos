@@ -1,0 +1,12 @@
+.jButtonGroup{
+    width: 100%;
+}
+.jButtonGroup button .fa.fa-bars{
+    padding: 3px 0;
+}
+.jButtonGroup.btn-group-justified .btn-primary{
+    border-left: solid 1px #FFFFFF !important;
+}
+.jButtonGroup.btn-group-justified .btn-group:first-child .btn-primary{
+    border-left: 0px !important;
+}

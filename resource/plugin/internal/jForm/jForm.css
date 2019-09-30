@@ -1,0 +1,21 @@
+.jForm .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+}
+.jForm .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+.jForm .bootstrap-tagsinput{
+    display: block;
+}
+.jForm .well-sm {
+    padding: 6px;
+}
+
+.feedback_no_label .has-feedback label~.form-control-feedback {
+    top: 5px;
+}

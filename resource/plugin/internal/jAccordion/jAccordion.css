@@ -1,0 +1,72 @@
+.jAccordion {
+    margin: 0;
+}
+.jAccordion>.panel{
+    /*margin: 0 !important;*/
+}
+.jAccordion .panel-heading{
+    cursor: pointer;
+}
+.jAccordion .panel-heading .panel-title:after
+{
+    font-family: 'Glyphicons Halflings';
+    float: right;
+    content: "\e080";
+}
+.jAccordion .panel-heading.open-icon .panel-title:after {
+    content: "\e114";
+}
+.jAccordion .panel-title>i{
+    padding-right: 5px;
+    /*padding-left: 5px;*/
+}
+/*.tituloseccion{*/
+    /*text-align:center;*/
+    /*color:#fff;*/
+    /*font-size:13pt;*/
+    /*font-weight: bold;*/
+    /*padding:10px 0;*/
+    /*margin-bottom:10px;*/
+    /*!* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,999999+13,044732+30,044732+71,999999+85,ffffff+100 *!*/
+    /*background: #ffffff; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(left, #ffffff 0%, #999999 13%, #044732 30%, #044732 71%, #999999 85%, #ffffff 100%); !* FF3.6+ *!*/
+    /*background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(13%,#999999), color-stop(30%,#044732), color-stop(71%,#044732), color-stop(85%,#999999), color-stop(100%,#ffffff)); !* Chrome,Safari4+ *!*/
+    /*background: -webkit-linear-gradient(left, #ffffff 0%,#999999 13%,#044732 30%,#044732 71%,#999999 85%,#ffffff 100%); !* Chrome10+,Safari5.1+ *!*/
+    /*background: -o-linear-gradient(left, #ffffff 0%,#999999 13%,#044732 30%,#044732 71%,#999999 85%,#ffffff 100%); !* Opera 11.10+ *!*/
+    /*background: -ms-linear-gradient(left, #ffffff 0%,#999999 13%,#044732 30%,#044732 71%,#999999 85%,#ffffff 100%); !* IE10+ *!*/
+    /*background: linear-gradient(to right, #ffffff 0%,#999999 13%,#044732 30%,#044732 71%,#999999 85%,#ffffff 100%); !* W3C *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); !* IE6-9 *!*/
+/*}*/
+/*.panel-footer .btn+.btn {*/
+    /*margin-bottom: 0;*/
+    /*margin-left: 5px;*/
+/*}*/
+/*.bootstrap-switch-label{*/
+    /*white-space: nowrap;*/
+/*}*/
+/*.panel-heading-button button{*/
+    /*margin-top:-3px;*/
+    /*position: absolute;*/
+/*}*/
+/*.panel-heading-button .panel-title{*/
+    /*padding:5px 0;*/
+/*}*/
+/*.panel-title.center{*/
+    /*text-align: center;*/
+    /*font-weight: bold;*/
+/*}*/
+/*[class^="flaticon-"]:before, [class*=" flaticon-"]:before,*/
+/*[class^="flaticon-"]:after, [class*=" flaticon-"]:after {*/
+    /*margin-left: 0 !important;*/
+    /*!*font-size: inherit;*!*/
+/*}*/
+/*pre.large-text{*/
+    /*white-space: pre-line;*/
+    /*text-align: justify;*/
+    /*word-break: normal;*/
+    /*border: transparent;*/
+    /*padding: 0;*/
+/*}*/
+/*button marquee{*/
+    /*height: 13px;*/
+/*}*/

@@ -1,0 +1,84 @@
+.jChips{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    /*height: 34px;*/
+    margin-bottom: 5px;
+    padding: 5px;
+    /*background-color: #FFFFFF;*/
+    /*padding: 5px;*/
+    text-align: center;
+}
+.jChips .chip, .jChips .chip-space{
+    display: inline-flex;
+    /*height: 30px;*/
+
+}
+.jChips .chip{
+    /*background-color: #0a202e;*/
+    /*color: #FFFFFF;*/
+    /*padding: 0px 5px;*/
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 10px;
+    text-align: center;
+}
+.jChips .chip:hover{
+    background-color: #ffe6c9;
+}
+.jChips .chip .chip-actions .btn{
+    padding: 1px 1px;
+}
+.jChips .chip i{
+    padding: 2px;
+}
+.jChips .chip.chip-to-move{
+    background-color: #7fac8c;
+    padding: 2px 5px;
+}
+.jChips .chip.chip-selected{
+    background-color: #ebebeb;
+    border-radius: 5px;
+    padding: 2px 5px;
+    border: solid 1px #ccc;
+}
+.jChips .chip-text{
+    width: 100%;
+}
+.jChips .chip.chip-selected .chip-text{
+    padding-right: 15px;
+}
+.jChips .chip-actions{
+    display: flex;
+}
+/*.jChips .chip .chip-edit{*/
+    /*background-color: #ffffff;*/
+    /*padding: 0 2px;*/
+    /*border-radius: 50px;*/
+/*}*/
+/*.jChips .chip .chip-edit:hover{*/
+    /*border: solid 1px #727272;*/
+/*}*/
+/*.jChips .chip .chip-delete{*/
+    /*background-color: #FD003C;*/
+    /*color: #ffffff;*/
+    /*padding: 0 2px;*/
+    /*border-radius: 50px;*/
+/*}*/
+/*.jChips .chip .chip-delete:hover{*/
+    /*border: solid 1px #727272;*/
+/*}*/
+.jChips .chip-space{
+    cursor: pointer;
+    width: 10px;
+    color: transparent;
+    /*height: 25px;*/
+    border-bottom: solid 1px #ccc;
+    margin: 0px 2px;
+}
+.jChips .chip-space:hover{
+    background-color: #ffe6c9;
+}
+.jChips .chip-space.chip-space-selected{
+    background-color: #aad5e6;
+    /*border: dotted 1px #ccc;*/
+}

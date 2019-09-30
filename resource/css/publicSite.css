@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url("../fonts/graphik/Graphik-Regular.otf");
+    font-style: normal;
+}
+html,
+body {
+    font-family: 'Graphik', serif !important;
+    width: 100%;
+    height: 100%;
+    background-image: url(/resource/image/background_hidalgo_blue.jpg);
+    background-size: auto 100%;
+    background-position: center;
+    overflow-x: hidden;
+    transition: background-image 0.5s ease-in-out;
+}
+#public-header{
+    background: #F6F6F6;
+    margin-top: 20%;
+}
+#public-header.public-header-top{
+    background: #001F2F;
+}
+body.public-header-top{
+    background-image: url(/resource/image/background_hidalgo_white.jpg);
+}
+#logo-container.public-header-top{
+    background-size: 350px;
+    height: 80px;
+    background-image: url(/resource/image/logo_white.png);
+}
+#public-header {
+    background: #F6F6F6;
+    margin-top: 20%;
+    /*border-top:  solid 4px #6FB330;*/
+    /*border-bottom:  solid 4px #6FB330;*/
+}
+#public-header table{
+    width: 100%;
+    text-align: center;
+}
+#logo-container{
+    padding: 20px 0;
+    text-align: center;
+    /*width: 45%;*/
+}
+#logo-container h1{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    /*color: #ffffff;*/
+}
+#logo-container{
+    background-image: url(/resource/image/logo.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    margin-top: -15px;
+    margin-right: 15px;
+}
+@media (max-width: 768px) {
+    #logo-container{
+        background-size: 100% auto ;
+    }
+}
+#button-panel-login{
+    padding-bottom: 10px;
+}
+#button-panel-login button{
+    padding: 5px 40px;
+}
+#login-container{
+    margin-top: 15%;
+    background-image: url(/resource/image/background_hidalgo_blue.jpg);
+    padding: 20px 0px;
+}
+#login-container h2{
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
+#login label{
+    color: #ffffff !important;
+}
+.btn-danger{
+    color: #fff !important;
+    background-color: #E73C4E !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    border-color: #E73C4E !important;
+}

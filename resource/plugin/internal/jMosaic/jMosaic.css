@@ -1,0 +1,48 @@
+.jMosaic{
+    margin: 2%;
+}
+.jMosaic .mosaic{
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	background-color: #001F2F;
+	color: #F6F6F6;
+	height: 150px;
+	margin: 10px 0;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-bottom: solid 5px #6FB330;
+	border-top: solid 5px #6FB330;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.jMosaic .mosaic:hover{
+	webkit-box-shadow: 15px 15px 0px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: 15px 15px 0px -12px rgba(0,0,0,0.75);
+	box-shadow: 15px 15px 0px -12px rgba(0,0,0,0.75);
+
+}
+.jMosaic .mosaic .mosaic-name{
+	height: 38px;
+}
+.jMosaic .mosaic .mosaic-name{
+	font-weight: bold;
+	font-size: large;
+}
+.jMosaic .mosaic.mosaic-home{
+	/*background-color: #F6F6F6;*/
+	/*color: #000000;*/
+	/*color: rgb(29, 81, 139);;	*/
+}
+.jMosaic .mosaic.mosaic-sub{
+	background-color: #F6F6F6;
+	color: #000000;
+}
+.jMosaic i{
+	margin: 15px;
+	/*color: #323232;*/
+}
+.jMosaic i:before{
+	font-size: inherit;
+}

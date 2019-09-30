@@ -1,0 +1,73 @@
+.input-date .form-control-feedback {
+    margin-right: 40px;
+}
+.has-error .btn {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.has-success .btn {
+    border-color: #3c763d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+/*.file-caption.has-feedback.has-error{*/
+	/*border-color: #a94442;*/
+    /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+  	/*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);	*/
+/*}*/
+/*.file-caption.has-feedback.has-success{*/
+	/*border-color: #3c763d;*/
+    /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+  	/*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+/*}*/
+/*.file-caption .form-control-feedback.glyphicon{*/
+	/*margin-top: 0 !important;*/
+/*}*/
+/*.contadorPalabras{*/
+    /*font-weight: bold;*/
+	/*position: absolute;*/
+  	/*bottom: 5px;*/
+  	/*right: 20px;*/
+  	/*z-index: 2;*/
+  	/*display: block;*/
+  	/*text-align: center;*/
+  	/*pointer-events: none;*/
+    /*background-color: rgba(0,0,0,.2);*/
+    /*padding: 0px 5px;*/
+    /*border-radius: 2px;*/
+/*}*/
+/*.afterColHeight{*/
+  /*float: left !important;*/
+/*}*/
+/*select + .form-control-feedback{*/
+  /*padding-right: 20px;*/
+/*}*/
+/*.form-group.has-feedback.has-success .bootstrap-switch{*/
+  /*border-color: #3c763d;*/
+  /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+  /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+/*}*/
+/*.form-group.has-feedback.has-success .bootstrap-switch-label{*/
+  /*border-color: #3c763d;*/
+  /*background-color: #dff0d8;  */
+/*}*/
+/*.form-group.has-feedback.has-success .bootstrap-switch-label:before {*/
+  /*font-family: FontAwesome;*/
+  /*content: "\f00c";*/
+  /*color: #3c763d;*/
+/*}*/
+/*.form-group.has-feedback.has-error .bootstrap-switch{*/
+  /*border-color: #a94442;*/
+  /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+  /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+/*}*/
+/*.form-group.has-feedback.has-error .bootstrap-switch-label{*/
+  /*border-color: #a94442;*/
+  /*background-color: #f2dede;  */
+/*}*/
+/*.form-group.has-feedback.has-error .bootstrap-switch-label:before{*/
+  /*font-family: FontAwesome;*/
+  /*content: "\f00d";*/
+  /*color: #a94442;*/
+/*}*/

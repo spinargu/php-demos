@@ -1,0 +1,62 @@
+.jFilter{
+    background-color: rgba(230,230,230,.9);
+}
+.jFilter th{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.jFilter .filter{
+    font-size: small;
+}
+.jFilter thead th{
+    width: 100%;
+}
+.jFilter thead i{
+    width: 16px;
+    height: 16px;
+}
+.jFilter .add{
+    width: 1px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: small;
+    border: inherit;
+}
+.jFilter .filter td{
+    padding: 0;
+}
+.jFilter .filter-table{
+    width: 100%;
+}
+.jFilter .filter-table td{
+    font-size: small;
+    vertical-align: middle;
+    padding: 5px;
+    border: 1px solid #ddd !important;
+}
+.jFilter .filter .selected_filters{
+    padding: 0;
+}
+.jFilter .filter .search{
+    text-align: center;
+}
+.jFilter .filter .search i{
+    margin-right: 5px;
+}
+.jFilter .apply{
+    width: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+.jFilter .selected_filters{
+    width: 100%;
+    padding: 0 0 5px 0;
+}
+.jFilter .filter-option{
+    margin: 2px 0 0 5px;
+}
+.jFilter .filter-option .remove{
+    padding: 4px;
+}
